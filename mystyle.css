@@ -1,0 +1,89 @@
+body{
+    background-image: url("img/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black; 
+    padding: 20px;
+}
+.portfolio {
+    text-align: center;
+}
+.portfolio h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.profile h2 {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.profile h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+.profile h2 a:hover {
+    border: 2px solid darkviolet;
+    background-color: violet;
+    border-radius: 8px;
+}
+.selfintro, .educ-background, .expertise, .it-background, .appusedstudying{
+    margin-bottom: 20px; 
+}
+h3 {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    background-color: darkviolet;
+    color: white;
+}
+h4 {
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+p {
+    text-align: justify;
+}
+ul {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    list-style-type: square;
+    padding-left: 20px; 
+}
+ol {
+    text-align: left;
+    font-family: Arial, sans-serif;
+     list-style-type: number;
+    padding-left: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+th {
+    border: 1px solid black;
+    padding: 8px;
+}
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+.educ-background thead{
+	background-color: darkviolet;
+	color: white;
+}
+.it-background h4{
+	background-color: darkviolet;
+	color: white;
+}
+.appusedstudying h4{
+	background-color: darkviolet;
+	color: white;
+}
+
+
